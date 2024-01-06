@@ -1,5 +1,7 @@
 import os
+from lxml import etree
 import pandas as pd
+from  lxml.etree import Element
 
 from tools.PARAMETERS import GHG_CATEGORY, GHG_FNAME2TYPE, GHG_NAMES,\
                              LU_CROPS, LU_LVSTKS, LU_UNALLOW, NON_AG_LANDUSE
@@ -360,3 +362,55 @@ def list_all_files(directory):
         for file in files:
             file_list.append(os.path.join(root, file))
     return file_list
+
+
+def add_data_2_html(html_path:str, data_pathes:list)->None:
+    """
+    Adds data from multiple files to an HTML file.
+
+    Args:
+        html_path (str): The path to the HTML file.
+        data_pathes (list): A list of paths to the data files.
+
+    Returns:
+        None: This function does not return anything.
+    """
+
+    # Step 1: Parse the HTML file
+    parser = etree.HTMLParser()
+    tree = etree.parse(html_path, parser)
+
+    # Step 3: Remove the div if it exists
+    data_csv_div = tree.find('.//div[@id="data_csv"]')
+
+    if data_csv_div is not None:
+        data_csv_div.getparent().remove(data_csv_div)
+
+    # Step 4: Append a div[id="data_csv"] to the div[class="content"]
+    content_div = tree.xpath('.//div[@class="content"]')[0]
+
+    new_div = Element("div",)
+    new_div.set("id", "data_csv")
+    new_div.set("style", "display: none;")
+
+    # Create and append five <pre> elements
+    for data_path in data_pathes:
+
+        # get the base name of the file
+        data_name = os.path.basename(data_path).split('.')[0]
+
+        with open(data_path, 'r') as file:
+            raw_string = file.read()
+
+        pre_element = etree.SubElement(new_div, "pre")
+        pre_element.set("id", f"{data_name}_csv")
+        pre_element.text = raw_string
+
+
+    # Step 5: Insert the new div
+    content_div.addnext(new_div)
+
+    # Step 6: Save the changes
+    tree.write(html_path, method="html")
+
+    print(f"Data added to {html_path} successfully!")
