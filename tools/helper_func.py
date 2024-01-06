@@ -1,7 +1,8 @@
-from tools.PARAMETERS import GHG_CATEGORY, GHG_FNAME2TYPE, GHG_NAMES, LU_CROPS, LU_LVSTKS, LU_UNALLOW, NON_AG_LANDUSE
-
-
+import os
 import pandas as pd
+
+from tools.PARAMETERS import GHG_CATEGORY, GHG_FNAME2TYPE, GHG_NAMES,\
+                             LU_CROPS, LU_LVSTKS, LU_UNALLOW, NON_AG_LANDUSE
 
 
 def sum_lvstk(path:str):
@@ -340,3 +341,22 @@ def target_GHG_2_Json(GHG_lu_source_target_yr):
                 print(f"{s},{l} not found")
 
     return GHG_lu_source_nest_dict
+
+
+def list_all_files(directory):
+    
+    """
+    This function is used to get all the file paths under the given directory
+
+    Parameters:
+    directory (str): The given directory.
+
+    Returns:
+    list: The list of file paths under the given directory.
+    """
+    
+    file_list = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            file_list.append(os.path.join(root, file))
+    return file_list

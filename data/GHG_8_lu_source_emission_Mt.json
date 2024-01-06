@@ -1,1 +1,1583 @@
-[{"name": "Agricultural soils: Animal production, dung and urine", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 1.707542549968438}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 0.49948898192359137}, {"name": "Grapes", "value": 0.0002353991700540428}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 1.4202136445206115}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 0.00038871586395292253}, {"name": "Winter cereals", "value": 4.887279191242669e-05}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Agricultural soils: Direct Soil Emissions (biogenic)", "data": [{"name": "Apples", "value": 0.0015832210693359375}, {"name": "Beef", "value": 0.3679859716954007}, {"name": "Citrus", "value": 0.0421388515625}, {"name": "Cotton", "value": 0.06938295775222778}, {"name": "Dairy", "value": 0.2936686256827286}, {"name": "Grapes", "value": 0.07406101657282708}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.04029325653588151}, {"name": "Other non-cereal crops", "value": 0.042236933609008785}, {"name": "Plantation fruit", "value": 0.06163972153275518}, {"name": "Rice", "value": 0.04972746006378026}, {"name": "Sheep", "value": 0.0009365724403038894}, {"name": "Stone fruit", "value": 0.01963190117772347}, {"name": "Sugar", "value": 0.5444906970214843}, {"name": "Summer cereals", "value": 0.014146299789428713}, {"name": "Summer legumes", "value": 0.0008285160220103881}, {"name": "Summer oilseeds", "value": 0.0005990629196166992}, {"name": "Tropical stone fruit", "value": 0.00388978271484375}, {"name": "Vegetables", "value": 0.11772676724406075}, {"name": "Winter cereals", "value": 0.949471474862654}, {"name": "Winter legumes", "value": 0.0018541786638971338}, {"name": "Winter oilseeds", "value": 0.04556453911685944}]}, {"name": "Agricultural soils: Indirect leaching and runoff", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 1.0772440635613796}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 0.6445266497138286}, {"name": "Grapes", "value": 0.00029381533527126155}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 0.6939928458451057}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 0.000504192965541064}, {"name": "Winter cereals", "value": 2.274132050513799e-05}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Chemical Application", "data": [{"name": "Apples", "value": 0.0005491481323242187}, {"name": "Beef", "value": 0.025898212822165936}, {"name": "Citrus", "value": 0.002764935089111328}, {"name": "Cotton", "value": 0.039588360794067384}, {"name": "Dairy", "value": 0.01866658831081196}, {"name": "Grapes", "value": 0.01972730511263831}, {"name": "Hay", "value": 0.004787902090072632}, {"name": "Nuts", "value": 0.009579686040518707}, {"name": "Other non-cereal crops", "value": 0.005927897857666016}, {"name": "Plantation fruit", "value": 0.01025762815484569}, {"name": "Rice", "value": 0.0009948661496216391}, {"name": "Sheep", "value": 0.00013837393110309587}, {"name": "Stone fruit", "value": 0.005502681139733933}, {"name": "Sugar", "value": 0.023736587707519533}, {"name": "Summer cereals", "value": 0.019876586433410646}, {"name": "Summer legumes", "value": 0.002527053237237782}, {"name": "Summer oilseeds", "value": 0.0007090530776977539}, {"name": "Tropical stone fruit", "value": 0.0008294107055664062}, {"name": "Vegetables", "value": 0.009892388415968636}, {"name": "Winter cereals", "value": 1.0382219956358023}, {"name": "Winter legumes", "value": 0.10308282799786492}, {"name": "Winter oilseeds", "value": 0.07129242862701415}]}, {"name": "Crop Management", "data": [{"name": "Apples", "value": 0.00015838333129882814}, {"name": "Beef", "value": 1.841522507015929e-05}, {"name": "Citrus", "value": 0.0014146856231689452}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 4.1456722718755146e-05}, {"name": "Grapes", "value": 0.010342909934413468}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.002705984818972705}, {"name": "Other non-cereal crops", "value": 0.0026809314193725585}, {"name": "Plantation fruit", "value": 0.0017697120901184243}, {"name": "Rice", "value": 7.209201778076079e-06}, {"name": "Sheep", "value": 3.175658770135305e-05}, {"name": "Stone fruit", "value": 0.001332266273927339}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 9.169729104489278e-05}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0002551072158813477}, {"name": "Vegetables", "value": 0.0018665692367188132}, {"name": "Winter cereals", "value": 6.386138124882563e-05}, {"name": "Winter legumes", "value": 3.919168880845359e-05}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Cultivation", "data": [{"name": "Apples", "value": 0.00032208102416992186}, {"name": "Beef", "value": 0.06915765644288427}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.024803028072357177}, {"name": "Dairy", "value": 0.04495010555994891}, {"name": "Grapes", "value": 0.012403144926975255}, {"name": "Hay", "value": 0.08364465124511719}, {"name": "Nuts", "value": 0.006952287475657601}, {"name": "Other non-cereal crops", "value": 0.010707031585693357}, {"name": "Plantation fruit", "value": 0.0034007711787226364}, {"name": "Rice", "value": 0.004047307262736979}, {"name": "Sheep", "value": 0.0001745450930086713}, {"name": "Stone fruit", "value": 0.004505467561510832}, {"name": "Sugar", "value": 0.08616117254638671}, {"name": "Summer cereals", "value": 0.049518393005371086}, {"name": "Summer legumes", "value": 0.004606378594865585}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0006954597778320313}, {"name": "Vegetables", "value": 0.00879554738818191}, {"name": "Winter cereals", "value": 0.26553126408848254}, {"name": "Winter legumes", "value": 0.011773992232207013}, {"name": "Winter oilseeds", "value": 0.07232896634292602}]}, {"name": "Electricity Use livestock", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 0.0}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 0.4767535278276849}, {"name": "Grapes", "value": 0.0001686739820734547}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 0.0}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 0.0009056566409239458}, {"name": "Winter cereals", "value": 0.0}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Fertiliser production", "data": [{"name": "Apples", "value": 0.0005224805908203125}, {"name": "Beef", "value": 0.1852718612253374}, {"name": "Citrus", "value": 0.045429622070312495}, {"name": "Cotton", "value": 0.05619455552673341}, {"name": "Dairy", "value": 0.14028209138443798}, {"name": "Grapes", "value": 0.05377110977644542}, {"name": "Hay", "value": 0.17834253405761719}, {"name": "Nuts", "value": 0.035681031895993004}, {"name": "Other non-cereal crops", "value": 0.048616335693359373}, {"name": "Plantation fruit", "value": 0.0984076604048349}, {"name": "Rice", "value": 0.02205499692823973}, {"name": "Sheep", "value": 0.0005922293156313353}, {"name": "Stone fruit", "value": 0.006629236499903236}, {"name": "Sugar", "value": 0.17626711120605468}, {"name": "Summer cereals", "value": 0.06051752456665039}, {"name": "Summer legumes", "value": 0.004665197914440869}, {"name": "Summer oilseeds", "value": 0.002298726898193359}, {"name": "Tropical stone fruit", "value": 0.00286431201171875}, {"name": "Vegetables", "value": 0.15784422726056743}, {"name": "Winter cereals", "value": 2.647542072065602}, {"name": "Winter legumes", "value": 0.14031857726488822}, {"name": "Winter oilseeds", "value": 0.4551447406311035}]}, {"name": "Fodder production", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 0.35921741223726217}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 0.6323371031263028}, {"name": "Grapes", "value": 0.0006522902191739268}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 0.2555637435491566}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 0.0007347174937461095}, {"name": "Winter cereals", "value": 8.835993411193498e-06}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Fuel Use livestock", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 1.7787669905566923}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 0.4181706630519382}, {"name": "Grapes", "value": 0.00011421427644579672}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 3.4818435018684912}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 0.002888324210460996}, {"name": "Winter cereals", "value": 0.00023972924164310824}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Harvesting", "data": [{"name": "Apples", "value": 0.0002116072235107422}, {"name": "Beef", "value": 1.2798396147343963e-05}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.06347309035491944}, {"name": "Dairy", "value": 0.00011152360765908723}, {"name": "Grapes", "value": 0.001852072750125926}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0032533826514035023}, {"name": "Other non-cereal crops", "value": 0.0016651313514709472}, {"name": "Plantation fruit", "value": 7.76967658996582e-05}, {"name": "Rice", "value": 0.0005575413646697998}, {"name": "Sheep", "value": 4.114518902870373e-05}, {"name": "Stone fruit", "value": 0.0012545667491181188}, {"name": "Sugar", "value": 0.003912170862197876}, {"name": "Summer cereals", "value": 0.011602014394760132}, {"name": "Summer legumes", "value": 0.0005743761963051911}, {"name": "Summer oilseeds", "value": 0.00019918791580200194}, {"name": "Tropical stone fruit", "value": 0.0003305277862548828}, {"name": "Vegetables", "value": 0.0010735739808239414}, {"name": "Winter cereals", "value": 0.2461918682827388}, {"name": "Winter legumes", "value": 0.00795583204679956}, {"name": "Winter oilseeds", "value": 0.029270617815017698}]}, {"name": "Irrigation", "data": [{"name": "Apples", "value": 0.00029852886962890627}, {"name": "Beef", "value": 0.03276971301832824}, {"name": "Citrus", "value": 0.0006423362426757812}, {"name": "Cotton", "value": 0.0023467192459106444}, {"name": "Dairy", "value": 0.03226116798226814}, {"name": "Grapes", "value": 0.00855596479096959}, {"name": "Hay", "value": 0.010044410457611085}, {"name": "Nuts", "value": 0.0010303060089481987}, {"name": "Other non-cereal crops", "value": 0.006460539308547974}, {"name": "Plantation fruit", "value": 0.00026898132985779126}, {"name": "Rice", "value": 0.012888910741174271}, {"name": "Sheep", "value": 0.00019093466963513011}, {"name": "Stone fruit", "value": 0.0023178269301365358}, {"name": "Sugar", "value": 0.006548123809814453}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0008525214157104492}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.000930882781982422}, {"name": "Vegetables", "value": 0.009711357773957832}, {"name": "Winter cereals", "value": 0.04352135227501313}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0002063052673339844}]}, {"name": "Livestock Enteric Fermentation (biogenic)", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 25.782104506602835}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 4.616338607099731}, {"name": "Grapes", "value": 0.0022271061702374717}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 14.822576943340644}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 0.004661858615694044}, {"name": "Winter cereals", "value": 0.0005758783443943321}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Livestock Manure Management (biogenic)", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 0.014397215471660701}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 0.29815246168759646}, {"name": "Grapes", "value": 0.00012731173094989207}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 0.005671022132201588}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 0.0006007803108804728}, {"name": "Winter cereals", "value": 1.435699781423771e-07}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Pasture Seed production", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 3.147279758595426}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.0}, {"name": "Dairy", "value": 0.22316823169498615}, {"name": "Grapes", "value": 3.535120235183967e-05}, {"name": "Hay", "value": 0.0}, {"name": "Nuts", "value": 0.0}, {"name": "Other non-cereal crops", "value": 0.0}, {"name": "Plantation fruit", "value": 0.0}, {"name": "Rice", "value": 0.0}, {"name": "Sheep", "value": 0.7645132411573228}, {"name": "Stone fruit", "value": 0.0}, {"name": "Sugar", "value": 0.0}, {"name": "Summer cereals", "value": 0.0}, {"name": "Summer legumes", "value": 0.0}, {"name": "Summer oilseeds", "value": 0.0}, {"name": "Tropical stone fruit", "value": 0.0}, {"name": "Vegetables", "value": 2.6703129892592188e-05}, {"name": "Winter cereals", "value": 6.5551829028316885e-06}, {"name": "Winter legumes", "value": 0.0}, {"name": "Winter oilseeds", "value": 0.0}]}, {"name": "Pesticide production", "data": [{"name": "Apples", "value": 0.00040385467529296883}, {"name": "Beef", "value": 0.05120950322348525}, {"name": "Citrus", "value": 0.012446037353515625}, {"name": "Cotton", "value": 0.0807350082397461}, {"name": "Dairy", "value": 0.03545699786685334}, {"name": "Grapes", "value": 0.03223185965818265}, {"name": "Hay", "value": 0.06247858776855469}, {"name": "Nuts", "value": 0.013983950716553844}, {"name": "Other non-cereal crops", "value": 0.010853131072998047}, {"name": "Plantation fruit", "value": 0.004638419467497907}, {"name": "Rice", "value": 0.0007147098042906055}, {"name": "Sheep", "value": 0.0002320578591889498}, {"name": "Stone fruit", "value": 0.009841502993800787}, {"name": "Sugar", "value": 0.11243170306396486}, {"name": "Summer cereals", "value": 0.08783954888916015}, {"name": "Summer legumes", "value": 0.001735093057822701}, {"name": "Summer oilseeds", "value": 0.0023929400329589846}, {"name": "Tropical stone fruit", "value": 0.001330322509765625}, {"name": "Vegetables", "value": 0.006627247153692227}, {"name": "Winter cereals", "value": 1.5349578715503598}, {"name": "Winter legumes", "value": 0.13959631761689822}, {"name": "Winter oilseeds", "value": 0.11414503616333008}]}, {"name": "Sowing", "data": [{"name": "Apples", "value": 0.0}, {"name": "Beef", "value": 0.017619883629235916}, {"name": "Citrus", "value": 0.0}, {"name": "Cotton", "value": 0.007092360582351685}, {"name": "Dairy", "value": 0.011969748142639725}, {"name": "Grapes", "value": 1.276017451214193e-05}, {"name": "Hay", "value": 0.004787902090072632}, {"name": "Nuts", "value": 0.0004783491841755089}, {"name": "Other non-cereal crops", "value": 0.0022208755035400393}, {"name": "Plantation fruit", "value": 5.321696090698242e-05}, {"name": "Rice", "value": 0.0007281764084844817}, {"name": "Sheep", "value": 3.0491595441475823e-05}, {"name": "Stone fruit", "value": 0.00013958634948730468}, {"name": "Sugar", "value": 0.021820502868652343}, {"name": "Summer cereals", "value": 0.014757420608520509}, {"name": "Summer legumes", "value": 0.0001995225750446516}, {"name": "Summer oilseeds", "value": 0.0005133566017150879}, {"name": "Tropical stone fruit", "value": 4.088296127319336e-05}, {"name": "Vegetables", "value": 0.0017536012611396035}, {"name": "Winter cereals", "value": 0.5965091031743952}, {"name": "Winter legumes", "value": 0.05487080301994924}, {"name": "Winter oilseeds", "value": 0.03738593413925171}]}]
+[
+    {
+        "name": "Agricultural soils: Animal production, dung and urine",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 1.707542549968438
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 0.49948898192359137
+            },
+            {
+                "name": "Grapes",
+                "value": 0.0002353991700540428
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 1.4202136445206115
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.00038871586395292253
+            },
+            {
+                "name": "Winter cereals",
+                "value": 4.887279191242669e-05
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Agricultural soils: Direct Soil Emissions (biogenic)",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0015832210693359375
+            },
+            {
+                "name": "Beef",
+                "value": 0.3679859716954007
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0421388515625
+            },
+            {
+                "name": "Cotton",
+                "value": 0.06938295775222778
+            },
+            {
+                "name": "Dairy",
+                "value": 0.2936686256827286
+            },
+            {
+                "name": "Grapes",
+                "value": 0.07406101657282708
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.04029325653588151
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.042236933609008785
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.06163972153275518
+            },
+            {
+                "name": "Rice",
+                "value": 0.04972746006378026
+            },
+            {
+                "name": "Sheep",
+                "value": 0.0009365724403038894
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.01963190117772347
+            },
+            {
+                "name": "Sugar",
+                "value": 0.5444906970214843
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.014146299789428713
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0008285160220103881
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0005990629196166992
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.00388978271484375
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.11772676724406075
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.949471474862654
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0018541786638971338
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.04556453911685944
+            }
+        ]
+    },
+    {
+        "name": "Agricultural soils: Indirect leaching and runoff",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 1.0772440635613796
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 0.6445266497138286
+            },
+            {
+                "name": "Grapes",
+                "value": 0.00029381533527126155
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 0.6939928458451057
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.000504192965541064
+            },
+            {
+                "name": "Winter cereals",
+                "value": 2.274132050513799e-05
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Chemical Application",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0005491481323242187
+            },
+            {
+                "name": "Beef",
+                "value": 0.025898212822165936
+            },
+            {
+                "name": "Citrus",
+                "value": 0.002764935089111328
+            },
+            {
+                "name": "Cotton",
+                "value": 0.039588360794067384
+            },
+            {
+                "name": "Dairy",
+                "value": 0.01866658831081196
+            },
+            {
+                "name": "Grapes",
+                "value": 0.01972730511263831
+            },
+            {
+                "name": "Hay",
+                "value": 0.004787902090072632
+            },
+            {
+                "name": "Nuts",
+                "value": 0.009579686040518707
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.005927897857666016
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.01025762815484569
+            },
+            {
+                "name": "Rice",
+                "value": 0.0009948661496216391
+            },
+            {
+                "name": "Sheep",
+                "value": 0.00013837393110309587
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.005502681139733933
+            },
+            {
+                "name": "Sugar",
+                "value": 0.023736587707519533
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.019876586433410646
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.002527053237237782
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0007090530776977539
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0008294107055664062
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.009892388415968636
+            },
+            {
+                "name": "Winter cereals",
+                "value": 1.0382219956358023
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.10308282799786492
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.07129242862701415
+            }
+        ]
+    },
+    {
+        "name": "Crop Management",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.00015838333129882814
+            },
+            {
+                "name": "Beef",
+                "value": 1.841522507015929e-05
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0014146856231689452
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 4.1456722718755146e-05
+            },
+            {
+                "name": "Grapes",
+                "value": 0.010342909934413468
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.002705984818972705
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0026809314193725585
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0017697120901184243
+            },
+            {
+                "name": "Rice",
+                "value": 7.209201778076079e-06
+            },
+            {
+                "name": "Sheep",
+                "value": 3.175658770135305e-05
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.001332266273927339
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 9.169729104489278e-05
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0002551072158813477
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.0018665692367188132
+            },
+            {
+                "name": "Winter cereals",
+                "value": 6.386138124882563e-05
+            },
+            {
+                "name": "Winter legumes",
+                "value": 3.919168880845359e-05
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Cultivation",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.00032208102416992186
+            },
+            {
+                "name": "Beef",
+                "value": 0.06915765644288427
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.024803028072357177
+            },
+            {
+                "name": "Dairy",
+                "value": 0.04495010555994891
+            },
+            {
+                "name": "Grapes",
+                "value": 0.012403144926975255
+            },
+            {
+                "name": "Hay",
+                "value": 0.08364465124511719
+            },
+            {
+                "name": "Nuts",
+                "value": 0.006952287475657601
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.010707031585693357
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0034007711787226364
+            },
+            {
+                "name": "Rice",
+                "value": 0.004047307262736979
+            },
+            {
+                "name": "Sheep",
+                "value": 0.0001745450930086713
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.004505467561510832
+            },
+            {
+                "name": "Sugar",
+                "value": 0.08616117254638671
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.049518393005371086
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.004606378594865585
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0006954597778320313
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.00879554738818191
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.26553126408848254
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.011773992232207013
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.07232896634292602
+            }
+        ]
+    },
+    {
+        "name": "Electricity Use livestock",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 0.0
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 0.4767535278276849
+            },
+            {
+                "name": "Grapes",
+                "value": 0.0001686739820734547
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 0.0
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.0009056566409239458
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Fertiliser production",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0005224805908203125
+            },
+            {
+                "name": "Beef",
+                "value": 0.1852718612253374
+            },
+            {
+                "name": "Citrus",
+                "value": 0.045429622070312495
+            },
+            {
+                "name": "Cotton",
+                "value": 0.05619455552673341
+            },
+            {
+                "name": "Dairy",
+                "value": 0.14028209138443798
+            },
+            {
+                "name": "Grapes",
+                "value": 0.05377110977644542
+            },
+            {
+                "name": "Hay",
+                "value": 0.17834253405761719
+            },
+            {
+                "name": "Nuts",
+                "value": 0.035681031895993004
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.048616335693359373
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0984076604048349
+            },
+            {
+                "name": "Rice",
+                "value": 0.02205499692823973
+            },
+            {
+                "name": "Sheep",
+                "value": 0.0005922293156313353
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.006629236499903236
+            },
+            {
+                "name": "Sugar",
+                "value": 0.17626711120605468
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.06051752456665039
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.004665197914440869
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.002298726898193359
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.00286431201171875
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.15784422726056743
+            },
+            {
+                "name": "Winter cereals",
+                "value": 2.647542072065602
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.14031857726488822
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.4551447406311035
+            }
+        ]
+    },
+    {
+        "name": "Fodder production",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 0.35921741223726217
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 0.6323371031263028
+            },
+            {
+                "name": "Grapes",
+                "value": 0.0006522902191739268
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 0.2555637435491566
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.0007347174937461095
+            },
+            {
+                "name": "Winter cereals",
+                "value": 8.835993411193498e-06
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Fuel Use livestock",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 1.7787669905566923
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 0.4181706630519382
+            },
+            {
+                "name": "Grapes",
+                "value": 0.00011421427644579672
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 3.4818435018684912
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.002888324210460996
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.00023972924164310824
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Harvesting",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0002116072235107422
+            },
+            {
+                "name": "Beef",
+                "value": 1.2798396147343963e-05
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.06347309035491944
+            },
+            {
+                "name": "Dairy",
+                "value": 0.00011152360765908723
+            },
+            {
+                "name": "Grapes",
+                "value": 0.001852072750125926
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0032533826514035023
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0016651313514709472
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 7.76967658996582e-05
+            },
+            {
+                "name": "Rice",
+                "value": 0.0005575413646697998
+            },
+            {
+                "name": "Sheep",
+                "value": 4.114518902870373e-05
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0012545667491181188
+            },
+            {
+                "name": "Sugar",
+                "value": 0.003912170862197876
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.011602014394760132
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0005743761963051911
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.00019918791580200194
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0003305277862548828
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.0010735739808239414
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.2461918682827388
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.00795583204679956
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.029270617815017698
+            }
+        ]
+    },
+    {
+        "name": "Irrigation",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.00029852886962890627
+            },
+            {
+                "name": "Beef",
+                "value": 0.03276971301832824
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0006423362426757812
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0023467192459106444
+            },
+            {
+                "name": "Dairy",
+                "value": 0.03226116798226814
+            },
+            {
+                "name": "Grapes",
+                "value": 0.00855596479096959
+            },
+            {
+                "name": "Hay",
+                "value": 0.010044410457611085
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0010303060089481987
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.006460539308547974
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.00026898132985779126
+            },
+            {
+                "name": "Rice",
+                "value": 0.012888910741174271
+            },
+            {
+                "name": "Sheep",
+                "value": 0.00019093466963513011
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0023178269301365358
+            },
+            {
+                "name": "Sugar",
+                "value": 0.006548123809814453
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0008525214157104492
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.000930882781982422
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.009711357773957832
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.04352135227501313
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0002063052673339844
+            }
+        ]
+    },
+    {
+        "name": "Livestock Enteric Fermentation (biogenic)",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 25.782104506602835
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 4.616338607099731
+            },
+            {
+                "name": "Grapes",
+                "value": 0.0022271061702374717
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 14.822576943340644
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.004661858615694044
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.0005758783443943321
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Livestock Manure Management (biogenic)",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 0.014397215471660701
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 0.29815246168759646
+            },
+            {
+                "name": "Grapes",
+                "value": 0.00012731173094989207
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 0.005671022132201588
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.0006007803108804728
+            },
+            {
+                "name": "Winter cereals",
+                "value": 1.435699781423771e-07
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Pasture Seed production",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 3.147279758595426
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0
+            },
+            {
+                "name": "Dairy",
+                "value": 0.22316823169498615
+            },
+            {
+                "name": "Grapes",
+                "value": 3.535120235183967e-05
+            },
+            {
+                "name": "Hay",
+                "value": 0.0
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Rice",
+                "value": 0.0
+            },
+            {
+                "name": "Sheep",
+                "value": 0.7645132411573228
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Sugar",
+                "value": 0.0
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.0
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.0
+            },
+            {
+                "name": "Vegetables",
+                "value": 2.6703129892592188e-05
+            },
+            {
+                "name": "Winter cereals",
+                "value": 6.5551829028316885e-06
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.0
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.0
+            }
+        ]
+    },
+    {
+        "name": "Pesticide production",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.00040385467529296883
+            },
+            {
+                "name": "Beef",
+                "value": 0.05120950322348525
+            },
+            {
+                "name": "Citrus",
+                "value": 0.012446037353515625
+            },
+            {
+                "name": "Cotton",
+                "value": 0.0807350082397461
+            },
+            {
+                "name": "Dairy",
+                "value": 0.03545699786685334
+            },
+            {
+                "name": "Grapes",
+                "value": 0.03223185965818265
+            },
+            {
+                "name": "Hay",
+                "value": 0.06247858776855469
+            },
+            {
+                "name": "Nuts",
+                "value": 0.013983950716553844
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.010853131072998047
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 0.004638419467497907
+            },
+            {
+                "name": "Rice",
+                "value": 0.0007147098042906055
+            },
+            {
+                "name": "Sheep",
+                "value": 0.0002320578591889498
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.009841502993800787
+            },
+            {
+                "name": "Sugar",
+                "value": 0.11243170306396486
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.08783954888916015
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.001735093057822701
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0023929400329589846
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 0.001330322509765625
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.006627247153692227
+            },
+            {
+                "name": "Winter cereals",
+                "value": 1.5349578715503598
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.13959631761689822
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.11414503616333008
+            }
+        ]
+    },
+    {
+        "name": "Sowing",
+        "data": [
+            {
+                "name": "Apples",
+                "value": 0.0
+            },
+            {
+                "name": "Beef",
+                "value": 0.017619883629235916
+            },
+            {
+                "name": "Citrus",
+                "value": 0.0
+            },
+            {
+                "name": "Cotton",
+                "value": 0.007092360582351685
+            },
+            {
+                "name": "Dairy",
+                "value": 0.011969748142639725
+            },
+            {
+                "name": "Grapes",
+                "value": 1.276017451214193e-05
+            },
+            {
+                "name": "Hay",
+                "value": 0.004787902090072632
+            },
+            {
+                "name": "Nuts",
+                "value": 0.0004783491841755089
+            },
+            {
+                "name": "Other non-cereal crops",
+                "value": 0.0022208755035400393
+            },
+            {
+                "name": "Plantation fruit",
+                "value": 5.321696090698242e-05
+            },
+            {
+                "name": "Rice",
+                "value": 0.0007281764084844817
+            },
+            {
+                "name": "Sheep",
+                "value": 3.0491595441475823e-05
+            },
+            {
+                "name": "Stone fruit",
+                "value": 0.00013958634948730468
+            },
+            {
+                "name": "Sugar",
+                "value": 0.021820502868652343
+            },
+            {
+                "name": "Summer cereals",
+                "value": 0.014757420608520509
+            },
+            {
+                "name": "Summer legumes",
+                "value": 0.0001995225750446516
+            },
+            {
+                "name": "Summer oilseeds",
+                "value": 0.0005133566017150879
+            },
+            {
+                "name": "Tropical stone fruit",
+                "value": 4.088296127319336e-05
+            },
+            {
+                "name": "Vegetables",
+                "value": 0.0017536012611396035
+            },
+            {
+                "name": "Winter cereals",
+                "value": 0.5965091031743952
+            },
+            {
+                "name": "Winter legumes",
+                "value": 0.05487080301994924
+            },
+            {
+                "name": "Winter oilseeds",
+                "value": 0.03738593413925171
+            }
+        ]
+    }
+]
