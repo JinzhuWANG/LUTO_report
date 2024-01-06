@@ -359,3 +359,17 @@ def get_non_ag_reduction(Non_ag_reduction_long):
                                                         if (x['Land use category'] != x['Land category'])
                                                         else x['Land use category'], axis=1)
     return Non_ag_reduction_total
+
+
+def get_water_df(water_dfs):
+    dfs = []
+    for _,row in water_dfs.iterrows():
+        df = pd.read_csv(row['path'], index_col=0).reset_index(drop=True)
+        # insert year column
+        df.insert(0, 'year', row['year'])
+        df['TOT_WATER_REQ_ML'] = df['TOT_WATER_REQ_ML'].str.replace(',','').astype(float)
+        df['WATER_USE_LIMIT_ML'] = df['WATER_USE_LIMIT_ML'].str.replace(',','').astype(float)
+        df['ABS_DIFF_ML'] = df['ABS_DIFF_ML'].str.replace(',','').astype(float)
+        dfs.append(df)
+
+    return pd.concat(dfs, axis=0).reset_index(drop=True)
