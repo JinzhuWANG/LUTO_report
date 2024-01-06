@@ -325,3 +325,18 @@ def get_GHG_category(all_files,GHG_type):
     GHG_nonCO2 = GHG_nonCO2.drop(columns=['Multiplier'])
 
     return pd.concat([GHG_CO2,GHG_nonCO2],axis=0).reset_index(drop=True)
+
+
+def target_GHG_2_Json(GHG_lu_source_target_yr):
+    GHG_lu_source_nest = GHG_lu_source_target_yr.groupby(['Sources','Land use']).sum()[['Quantity (Mt CO2e)']]
+
+    GHG_lu_source_nest_dict = []
+    for idx_s,s in enumerate(GHG_lu_source_nest.index.levels[0]):
+        GHG_lu_source_nest_dict.append({"name":s,"data":[]})
+        for idx_l,l in enumerate(GHG_lu_source_nest.index.levels[1]):
+            try:
+                GHG_lu_source_nest_dict[idx_s]["data"].append({'name':l,'value':GHG_lu_source_nest.loc[s,l].values[0]})
+            except:
+                print(f"{s},{l} not found")
+
+    return GHG_lu_source_nest_dict

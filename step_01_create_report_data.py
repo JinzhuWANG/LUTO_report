@@ -1,14 +1,18 @@
+import json
 import re
+import pandas as pd
+
 from tools import   get_AREA_am, get_AREA_lm, get_AREA_lu, get_GHG_emissions_by_crop_lvstk_df,\
-                    get_all_files, get_begin_end_df, get_quantity_df, get_rev_cost_df
-                    
-from tools.helper_func import get_GHG_category, get_GHG_file_df, get_rev_cost
+                    get_all_files, get_begin_end_df, get_non_ag_reduction, get_quantity_df, \
+                    get_rev_cost_df
+              
+from tools.helper_func import get_GHG_category, get_GHG_file_df, get_rev_cost,target_GHG_2_Json
 
 
 
 RAW_DATA_ROOT = '/home/jinzhu/docker_data/LUTO_DATA/2023_12_12__09_28_38_hard_mincost_RF5_P1e5_2010-2050_timeseries_-265Mt'
-SAVE_DIR = 'data'
-# SAVE_DIR = '/home/jinzhu/VIS_LUTO_JS/data'
+# SAVE_DIR = 'data'
+SAVE_DIR = '/home/jinzhu/VIS_LUTO_JS/data'
 
 
 # Get all LUTO output files and store them in a dataframe
@@ -158,15 +162,60 @@ GHG_Ag_emission_total_Source_wide.to_csv(f'{SAVE_DIR}/GHG_6_sources_emission_Mt.
 # Plot_3-5: GHG emission in start and end years (Mt)
 start_year,end_year = GHG_emmisions_long['Year'].min(),GHG_emmisions_long['Year'].max() 
 
-for idx,yr in enumerate([start_year,end_year]):
-    
-    GHG_lu_lm = GHG_emmisions_long\
-            .groupby(['Year','Land use category','Land use','Irrigation'])\
-            .sum()['Quantity (Mt CO2e)']\
-            .reset_index()
-    df_this_yr = GHG_lu_lm.query('Year == @yr').reset_index(drop=True)
-    
-    GHG_lu_lm_df_start_wide = df_this_yr.pivot(index='Land use', columns='Irrigation', values='Quantity (Mt CO2e)').reset_index()
-    GHG_lu_lm_df_start_wide.to_csv(f'{SAVE_DIR}/GHG_7_{idx + 1}_lu_lm_emission_Mt.csv',index=False)
+GHG_lu_lm = GHG_emmisions_long\
+        .groupby(['Year','Land use category','Land use','Irrigation'])\
+        .sum()['Quantity (Mt CO2e)']\
+        .reset_index()
+        
+GHG_lu_lm_df_start = GHG_lu_lm.query('Year == @start_year').reset_index(drop=True)
+GHG_lu_lm_df_end = GHG_lu_lm.query('Year == @end_year').reset_index(drop=True)
+
+GHG_lu_lm_df_begin_end = pd.concat([GHG_lu_lm_df_start,GHG_lu_lm_df_end],axis=0)
+GHG_lu_lm_df_begin_end_wide = GHG_lu_lm_df_begin_end.pivot(index=['Year','Irrigation'], columns='Land use', values='Quantity (Mt CO2e)').reset_index()
+GHG_lu_lm_df_begin_end_wide['Irrigation'] = GHG_lu_lm_df_begin_end_wide.apply(lambda x: f"{x['Irrigation']} ({x['Year']})", axis=1)
+GHG_lu_lm_df_begin_end_wide.to_csv(f'{SAVE_DIR}/GHG_7_lu_lm_emission_Mt_wide.csv',index=False)
+
+# Plot_3-6: GHG emission in the target year (Mt)
+GHG_lu_source = GHG_emmisions_long\
+                .groupby(['Year','Land use','Irrigation','Sources'])\
+                .sum()['Quantity (Mt CO2e)']\
+                .reset_index()
+        
+GHG_lu_source_target_yr = GHG_lu_source.query(f'Year == {end_year}')
+GHG_lu_source_nest_dict = target_GHG_2_Json(GHG_lu_source_target_yr)
+            
+# save as json
+with open(f'{SAVE_DIR}/GHG_8_lu_source_emission_Mt_1.json', 'w') as outfile:
+    json.dump(GHG_lu_source_nest_dict, outfile)
 
 
+
+# Plot_3-7: GHG sequestrations by Non-Agrilcultural sector (Mt)
+Non_ag_reduction_long = get_GHG_category(GHG_files,'Non-Agricultural Landuse')
+Non_ag_reduction_total = get_non_ag_reduction(Non_ag_reduction_long)
+GHG_non_ag_crop_lvstk_wide = Non_ag_reduction_total.pivot(index='Year', columns='Land use category', values='Quantity (Mt CO2e)').reset_index()
+GHG_non_ag_crop_lvstk_wide.to_csv(f'{SAVE_DIR}/GHG_9_non_ag_crop_lvstk_emission_Mt.csv',index=False)
+
+
+# Plot_3-8: GHG reductions by Agricultural managements (Mt)
+Ag_man_sequestration_long = get_GHG_category(GHG_files,'Agricultural Management')
+
+# Plot_3-8-1: GHG reductions by Agricultural managements in total (Mt)
+Ag_man_sequestration_total = Ag_man_sequestration_long.groupby(['Year','GHG Category']).sum()['Quantity (Mt CO2e)'].reset_index()
+Ag_man_sequestration_total_wide = Ag_man_sequestration_total.pivot(index='Year',columns='GHG Category',values='Quantity (Mt CO2e)').reset_index()
+Ag_man_sequestration_total_wide.to_csv(f'{SAVE_DIR}/GHG_10_GHG_ag_man_df_wide_Mt.csv',index=False)
+
+
+# Plot_3-8-2: GHG reductions by Agricultural managements in subsector (Mt)
+Ag_man_sequestration_crop_lvstk_wide = Ag_man_sequestration_long.groupby(['Year','Land use category','Land category']).sum()['Quantity (Mt CO2e)'].reset_index()
+Ag_man_sequestration_crop_lvstk_wide['Landuse_land_cat'] = Ag_man_sequestration_crop_lvstk_wide.apply(lambda x: (x['Land use category'] + ' - ' + x['Land category']) 
+                                if (x['Land use category'] != x['Land category']) else x['Land use category'], axis=1)
+
+Ag_man_sequestration_crop_lvstk_wide = Ag_man_sequestration_crop_lvstk_wide.pivot(index='Year',columns='Landuse_land_cat',values='Quantity (Mt CO2e)').reset_index()
+Ag_man_sequestration_crop_lvstk_wide.to_csv(f'{SAVE_DIR}/GHG_11_GHG_ag_man_GHG_crop_lvstk_df_wide_Mt.csv',index=False)
+
+
+# Plot_3-8-3: GHG reductions by Agricultural managements in subsector (Mt)
+Ag_man_sequestration_dry_irr_total = Ag_man_sequestration_long.groupby(['Year','Irrigation']).sum()['Quantity (Mt CO2e)'].reset_index()
+Ag_man_sequestration_dry_irr_wide = Ag_man_sequestration_dry_irr_total.pivot(index='Year',columns='Irrigation',values='Quantity (Mt CO2e)').reset_index()
+Ag_man_sequestration_dry_irr_wide.to_csv(f'{SAVE_DIR}/GHG_12_GHG_ag_man_dry_irr_df_wide_Mt.csv',index=False)
